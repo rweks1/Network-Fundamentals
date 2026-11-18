@@ -1,9 +1,3 @@
-Below is a comprehensive, beginner-friendly but professional TCP/IP Model summary for your GitHub networking portfolio.
-
-Save it as `tcp-ip/tcp-ip-notes.md` in your `networking-fundamentals` repository. It follows the same structure as your OSI notes so your portfolio stays consistent.
-
-Writing
-
 # TCP/IP Model (Transmission Control Protocol/Internet Protocol)
 
 ## 1\. Introduction
