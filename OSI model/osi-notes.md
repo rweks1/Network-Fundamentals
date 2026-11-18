@@ -21,7 +21,7 @@ Application Layer
 The OSI model helps network engineers, system administrators, and cybersecurity professionals understand, design, troubleshoot, and maintain computer networks.
 
 # 2. The Seven Layers of the OSI Model
-##Layer 1: Physical Layer
+## Layer 1: Physical Layer
 
 The Physical Layer is the first and lowest layer of the OSI model.
 
