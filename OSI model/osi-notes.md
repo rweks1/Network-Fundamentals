@@ -1,4 +1,5 @@
 # The OSI Model (Open Systems Interconnection Model)
+
 ## 1. Introduction
 
 The Open Systems Interconnection (OSI) Model is a conceptual framework used to explain how data is transmitted between devices over a network.
