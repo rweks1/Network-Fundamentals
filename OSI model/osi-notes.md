@@ -12,11 +12,11 @@ The seven layers are:
 
 1. Physical Layer
 2. Data Link Layer
-Network Layer
-Transport Layer
-Session Layer
-Presentation Layer
-Application Layer
+3. Network Layer
+4. Transport Layer
+5. Session Layer
+6. Presentation Layer
+7. Application Layer
 
 The OSI model helps network engineers, system administrators, and cybersecurity professionals understand, design, troubleshoot, and maintain computer networks.
 
