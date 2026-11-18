@@ -10,8 +10,8 @@ The OSI model divides network communication into seven layers, with each layer p
 
 The seven layers are:
 
-Physical Layer
-Data Link Layer
+1. Physical Layer
+2. Data Link Layer
 Network Layer
 Transport Layer
 Session Layer
