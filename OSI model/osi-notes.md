@@ -56,11 +56,11 @@ It organizes bits into frames and uses MAC (Media Access Control) addresses to i
 
 Main functions:
 
-Converts bits into frames.
-Uses MAC addresses for local device identification.
-Detects transmission errors.
-Controls access to the communication medium.
-Supports communication between devices on the same network segment.
+- Converts bits into frames.
+- Uses MAC addresses for local device identification.
+- Detects transmission errors.
+- Controls access to the communication medium.
+- Supports communication between devices on the same network segment.
 
 Examples of technologies and equipment:
 
@@ -82,11 +82,11 @@ It determines the best available path for data to travel from the source network
 
 Main functions:
 
-Provides logical addressing using IP addresses.
-Routes packets between networks.
-Determines network paths.
-Handles packet forwarding.
-Supports communication across different networks.
+- Provides logical addressing using IP addresses.
+- Routes packets between networks.
+- Determines network paths.
+- Handles packet forwarding.
+- Supports communication across different networks.
 
 Examples of technologies and equipment:
 
@@ -108,12 +108,12 @@ It manages data delivery and can provide reliability, error recovery, and flow c
 
 Main functions:
 
-Divides application data into smaller units.
-Supports end-to-end communication.
-Uses port numbers to identify applications and services.
-Provides reliability when using TCP.
-Supports faster, connectionless delivery using UDP.
-Performs segmentation and reassembly.
+- Divides application data into smaller units.
+- Supports end-to-end communication.
+- Uses port numbers to identify applications and services.
+- Provides reliability when using TCP.
+- Supports faster, connectionless delivery using UDP.
+- Performs segmentation and reassembly.
 
 Main protocols:
 
