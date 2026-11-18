@@ -1,5 +1,5 @@
 # The OSI Model (Open Systems Interconnection Model)
-1. Introduction
+## 1. Introduction
 
 The Open Systems Interconnection (OSI) Model is a conceptual framework used to explain how data is transmitted between devices over a network.
 
@@ -19,8 +19,8 @@ Application Layer
 
 The OSI model helps network engineers, system administrators, and cybersecurity professionals understand, design, troubleshoot, and maintain computer networks.
 
-2. The Seven Layers of the OSI Model
-Layer 1: Physical Layer
+# 2. The Seven Layers of the OSI Model
+##Layer 1: Physical Layer
 
 The Physical Layer is the first and lowest layer of the OSI model.
 
@@ -47,7 +47,7 @@ Data unit: Bits.
 
 Example: When two computers are connected using an Ethernet cable, the Physical Layer handles the transmission of electrical or optical signals between them.
 
-Layer 2: Data Link Layer
+## Layer 2: Data Link Layer
 
 The Data Link Layer is responsible for transferring data between devices on the same local network.
 
@@ -73,7 +73,7 @@ Data unit: Frames.
 
 Example: When a computer sends data to another computer on the same LAN, the Data Link Layer uses MAC addresses to help deliver the Ethernet frame to the correct device.
 
-Layer 3: Network Layer
+## Layer 3: Network Layer
 
 The Network Layer is responsible for logical addressing and routing data between different networks.
 
@@ -99,7 +99,7 @@ Data unit: Packets.
 
 Example: When you access a website hosted on another network, the Network Layer uses IP addressing and routing to help deliver packets toward the destination.
 
-Layer 4: Transport Layer
+## Layer 4: Transport Layer
 
 The Transport Layer provides end-to-end communication between applications running on different devices.
 
@@ -142,7 +142,7 @@ Data unit: Segments (TCP) and datagrams (UDP).
 
 Example: When downloading a file, TCP helps ensure that the data arrives reliably and in the correct order.
 
-Layer 5: Session Layer
+## Layer 5: Session Layer
 
 The Session Layer manages communication sessions between applications on different devices.
 
@@ -166,7 +166,7 @@ Data unit: Data.
 
 Example: During a remote communication session, session-related functions help manage the ongoing exchange of information between applications.
 
-Layer 6: Presentation Layer
+## Layer 6: Presentation Layer
 
 The Presentation Layer is responsible for ensuring that data is represented in a format that the receiving application can understand.
 
@@ -193,7 +193,7 @@ Data unit: Data.
 
 Example: When information is encrypted before transmission, presentation-related functions can help ensure that the receiving system can decrypt and interpret the information.
 
-Layer 7: Application Layer
+## Layer 7: Application Layer
 
 The Application Layer is the highest layer of the OSI model.
 
@@ -223,7 +223,7 @@ Data unit: Data.
 
 Example: When you open a website using a browser, HTTP or HTTPS is used to facilitate communication between the browser and the web server.
 
-3. Summary of the Seven OSI Layers
+# 3. Summary of the Seven OSI Layers
 Layer	Name	Main Function	Data Unit
 7	Application	Network services for applications	Data
 6	Presentation	Translation, encryption and compression	Data
@@ -232,7 +232,8 @@ Layer	Name	Main Function	Data Unit
 3	Network	Logical addressing and routing	Packets
 2	Data Link	MAC addressing and framing	Frames
 1	Physical	Transmission of raw bits	Bits
-4. Data Encapsulation and Decapsulation
+
+# 4. Data Encapsulation and Decapsulation
 
 Encapsulation is the process of adding protocol information to data as it moves down the OSI layers before transmission.
 
@@ -260,7 +261,7 @@ Receiving device:
 
 Physical → Data Link → Network → Transport → Session → Presentation → Application
 
-5. OSI Model and Networking Devices
+# 5. OSI Model and Networking Devices
 
 Different networking devices operate primarily at different OSI layers.
 
@@ -274,7 +275,7 @@ Layer 4 Firewall	Layer 4 – Transport
 
 Note: Some modern devices operate across multiple OSI layers. For example, multilayer switches can operate at Layers 2 and 3, while advanced firewalls can inspect information from several layers.
 
-6. OSI Model vs TCP/IP Model
+# 6. OSI Model vs TCP/IP Model
 
 The OSI model is a seven-layer conceptual reference model, while the TCP/IP model is a networking framework based on the protocols used for communication across the Internet.
 
@@ -293,7 +294,8 @@ OSI has seven layers, while the commonly used TCP/IP model has four.
 OSI is primarily a reference model for understanding network communication.
 TCP/IP is a practical protocol suite used for communication across interconnected networks.
 OSI provides a more detailed separation of networking functions.
-7. Importance of the OSI Model
+
+# 7. Importance of the OSI Model
 
 Understanding the OSI model is important because it:
 
@@ -303,7 +305,8 @@ Promotes standardization: Allows different devices and technologies to communica
 Supports network design: Helps engineers understand how networking technologies interact.
 Improves cybersecurity knowledge: Helps security professionals understand where different security controls operate.
 Supports learning: Provides a foundation for understanding TCP/IP, routing, switching, and network protocols.
-8. Practical Examples of OSI Layers
+
+# 8. Practical Examples of OSI Layers
 Example 1: Opening a website
 
 When you visit a website:
@@ -325,7 +328,8 @@ IP addresses identify the source and destination.
 MAC addresses support delivery across the local link.
 Physical signals transmit the data.
 The receiving computer processes the information through the reverse layers.
-9. Troubleshooting Using the OSI Model
+
+# 9. Troubleshooting Using the OSI Model
 
 The OSI model helps network technicians troubleshoot problems systematically.
 
@@ -340,7 +344,7 @@ Layer 7	DNS, HTTP or application service failure
 
 A useful troubleshooting approach is to start at Layer 1 and move upward, although the starting point can depend on the symptoms.
 
-10. Memory Trick for the Seven Layers
+# 10. Memory Trick for the Seven Layers
 
 To remember the OSI layers from Layer 7 down to Layer 1:
 
@@ -365,7 +369,8 @@ Throw – Transport
 Sausage – Session
 Pizza – Presentation
 Away – Application
-11. Key Takeaways
+
+# 11. Key Takeaways
 
 The OSI model is an essential foundation in computer networking.
 
@@ -383,7 +388,7 @@ Layer 7 provides network services to applications.
 
 Understanding these layers provides a strong foundation for studying switching, routing, subnetting, network security, and troubleshooting.
 
-12. Personal Learning Reflection
+# 12. Personal Learning Reflection
 
 What I learned:
 
